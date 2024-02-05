@@ -1,0 +1,68 @@
+/* 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+RRGGBB
+RED,GREN,BLUE    */
+
+/* para colocar una class colocamos  .  */
+/* display: inline-block; configurando la lista para que no ocupe todo el largo del navegador */
+/* padding: 20px; hacemos referencia que vamos a colocar anchura en el bloque. */
+/* .tituloCentralizado estoy usando la clase para agrupar y trabajar mejor(buenas practicas) */
+
+
+
+.tituloPrincipal{
+    padding-left: 30px;
+
+}
+#banner{
+    width: 100%;
+
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 20px;
+
+}
+
+.tituloCentralizado{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    /* background: #CCCCCC; */
+}
+em strong{
+    color: red;
+
+}
+
+#mision{
+    font-size: 20px;
+
+}
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+
+.items{
+    font-style: italic;
+
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+
+}
+
+
+.imagen-diferenciales{
+    width: 50%;
+}
+
